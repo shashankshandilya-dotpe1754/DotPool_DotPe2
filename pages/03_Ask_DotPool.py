@@ -1,5 +1,5 @@
 """
-Ask DotPool — conversational access to the forecasting model.
+Ask Dotpool — conversational access to the forecasting model.
 pages/02_Ask_DotPool.py
 
 The assistant answers by CALLING the trained model, never by guessing. Every
