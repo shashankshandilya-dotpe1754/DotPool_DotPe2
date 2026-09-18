@@ -127,8 +127,8 @@ with col_example:
     <div class="side-panel">
       <h4>A quick example</h4>
       <p style="margin-bottom:10px">Say Diwali is coming up and you're calling
-      on cloud kitchens in Bengaluru. Open Home, pick Bengaluru — DotPool
-      shows Diwali week is expected to lift cloud-kitchen orders well above
+      on Fine-Dining or PBCL in Bengaluru. Open Home, pick Bengaluru — DotPool
+      shows Diwali week is expected to lift the orders well above
       normal, and recommends leading with <b>SOVA</b>, DotPe's AI order-taking
       product, because delivery volume is about to spike.</p>
       <p style="margin-bottom:0">You now have a specific, current, defensible
