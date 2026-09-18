@@ -1,0 +1,26 @@
+# Requirements for the Streamlit app (dashboard.py + pages/*).
+# main.py is a separate, optional FastAPI server — see requirements-api.txt
+# if you deploy that too; it is NOT needed by the Streamlit app itself and
+# was previously pulling fastapi/uvicorn/apscheduler into every Streamlit
+# Cloud build for no reason.
+
+# ── Web / charts ─────────────────────────────────────────────────────────────
+streamlit>=1.33
+plotly>=5.20
+requests>=2.31
+
+# ── Data / ML ────────────────────────────────────────────────────────────────
+pandas>=2.0
+numpy>=1.24
+lightgbm>=4.0
+scikit-learn>=1.3      # only loaded lazily, on demand, by the Model Health
+                        # page's "Estimate uplift" button — not at startup
+
+# ── LLM layer (Ask DemandPulse / Event Review — optional, only used if a
+# provider is actually configured; each SDK here is small on its own) ───────
+anthropic>=0.39
+openai>=1.40
+ollama>=0.4
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+pytz>=2024.1

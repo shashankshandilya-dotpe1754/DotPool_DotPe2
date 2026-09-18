@@ -1,0 +1,6 @@
+# Only needed if you also deploy the standalone FastAPI server (main.py).
+# The Streamlit app (dashboard.py + pages/*) does not use this file.
+-r requirements.txt
+fastapi>=0.110
+uvicorn[standard]>=0.29
+apscheduler>=3.10

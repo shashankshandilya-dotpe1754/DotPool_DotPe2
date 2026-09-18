@@ -1,0 +1,54 @@
+{
+  "orders": {
+    "mae": 15.166,
+    "rmse": 22.077,
+    "mape_pct": 8.68,
+    "r2": 0.9346,
+    "log_resid_std": 0.1125,
+    "n": 72588
+  },
+  "orders_train": {
+    "mae": 8.369,
+    "rmse": 11.275,
+    "mape_pct": 5.84,
+    "r2": 0.9583,
+    "log_resid_std": 0.0732,
+    "n": 330648
+  },
+  "quantiles": {
+    "q10": {
+      "pinball": 0.02207,
+      "empirical_below_pct": 17.23
+    },
+    "q50": {
+      "pinball": 0.04352,
+      "empirical_below_pct": 47.73
+    },
+    "q90": {
+      "pinball": 0.02253,
+      "empirical_below_pct": 80.02
+    },
+    "interval_80": {
+      "raw_coverage_pct": 62.79,
+      "conformal_margin_log": 0.0443,
+      "empirical_coverage_pct": 80.0,
+      "mean_width_index_pts": 50.25
+    }
+  },
+  "aov": {
+    "mae": 58.298,
+    "rmse": 93.152,
+    "mape_pct": 4.66,
+    "r2": 0.9861,
+    "log_resid_std": 0.0594,
+    "n": 72588
+  },
+  "orders_naive_baseline": {
+    "mae": 54.34,
+    "rmse": 80.747,
+    "mape_pct": 28.05,
+    "r2": 0.1253,
+    "log_resid_std": 0.3563,
+    "n": 72588
+  }
+}
