@@ -50,7 +50,7 @@ st.markdown(f"""
 
 st.markdown(f"""
 <div class="about-hero">
-  <p>DotPool is a simple tool for the Sales team: pick a city, and it tells
+  <p>Dotpool is a simple tool for the Sales team: pick a city, and it tells
   you where demand is heading, why, and exactly which DotPe product to pitch
   because of it — backed by real numbers, not guesswork.</p>
 </div>
@@ -63,7 +63,7 @@ Every day, restaurants in different parts of India see more or fewer orders
 than usual — because of festivals, weather, holidays, or big sporting events.
 A rep on a sales call needs a fast, believable answer to two questions: "how
 many customers is this kind of restaurant seeing right now?" and "what should I offer
-them because of it?" DotPool answers both questions at once, using the same
+them because of it?" Dotpool answers both questions at once, using the same
 underlying numbers every time — an actual calendar of festivals and holidays,
 actual weather, and DotPe's real product prices — so nobody on the team is
 ever guessing or relying on a gut feeling.
@@ -92,7 +92,7 @@ with c3:
     st.markdown("""
     <div class="feat-card">
       <h4>A place to ask questions</h4>
-      <p>Ask DotPool anything in your own words — "what should I offer this
+      <p>Ask Dotpool anything in your own words — "what should I offer this
       client" or "why is demand soft this month" — and get an answer built
       from the same real numbers, not a guess.</p>
     </div>""", unsafe_allow_html=True)
@@ -105,11 +105,11 @@ with col_steps:
     steps = [
         ("Pick a city and a date range",
          "That's it to start — Home and Restaurant Impact both use the same simple pickers."),
-        ("DotPool checks what's happening on those dates",
+        ("Dotpool checks what's happening on those dates",
          "Festivals, holidays, big sports fixtures, and the weather forecast — all checked automatically, for every restaurant type."),
         ("It turns that into a specific pitch",
-         "DotPool matches what it finds against DotPe's real product list and prices, and tells you exactly what to offer and why — not just a number on a chart."),
-        ("Ask DotPool for anything else",
+         "Dotpool matches what it finds against DotPe's real product list and prices, and tells you exactly what to offer and why — not just a number on a chart."),
+        ("Ask Dotpool for anything else",
          "Type a question in plain English — about a city, a restaurant type, or a broader strategy call — and get an answer from the same data, with the working shown."),
     ]
     for i, (title, desc) in enumerate(steps, start=1):
@@ -127,7 +127,7 @@ with col_example:
     <div class="side-panel">
       <h4>A quick example</h4>
       <p style="margin-bottom:10px">Say Diwali is coming up and you're calling
-      on Fine-Dining or PBCL in Bengaluru. Open Home, pick Bengaluru — DotPool
+      on Fine-Dining or PBCL in Bengaluru. Open Home, pick Bengaluru — Dotpool
       shows Diwali week is expected to lift the orders well above
       normal, and recommends leading with <b>SOVA</b>, DotPe's AI order-taking
       product, because delivery volume is about to spike.</p>
@@ -147,7 +147,7 @@ with col_easy:
     There's nothing to set up and nothing to learn beforehand. Pick a city,
     and everything you need — what demand looks like, what's driving it, and
     what to offer because of it — is already there, in plain language, ready
-    to say out loud on a call. Ask DotPool is there for the questions a
+    to say out loud on a call. Ask Dotpool is there for the questions a
     dashboard can't answer on its own: a specific objection, a multi-outlet
     account, or how to frame a renewal — answered from the same data, with
     the option to attach a file or a screenshot for extra context.
@@ -166,4 +166,4 @@ with col_solves:
 
 st.markdown("---")
 st.markdown(f"<div style='font-size:1rem;color:{MUTE}'>Continue to Home for today's demand snapshot, "
-           f"or Ask DotPool for a direct question.</div>", unsafe_allow_html=True)
+           f"or Ask Dotpool for a direct question.</div>", unsafe_allow_html=True)
