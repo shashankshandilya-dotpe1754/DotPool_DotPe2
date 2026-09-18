@@ -61,8 +61,8 @@ st.markdown("""
 <p class="body-copy">
 Every day, restaurants in different parts of India see more or fewer orders
 than usual — because of festivals, weather, holidays, or big sporting events.
-A rep on a sales call needs a fast, believable answer to two questions: "what's
-demand doing right now for this kind of restaurant?" and "what should I offer
+A rep on a sales call needs a fast, believable answer to two questions: "how
+many customers is this kind of restaurant seeing right now?" and "what should I offer
 them because of it?" DotPool answers both questions at once, using the same
 underlying numbers every time — an actual calendar of festivals and holidays,
 actual weather, and DotPe's real product prices — so nobody on the team is
